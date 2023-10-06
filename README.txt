@@ -7,4 +7,11 @@
 7. git remote -v
 8. git push (-u origin master)
 
- 
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```  
